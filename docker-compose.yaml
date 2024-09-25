@@ -1,0 +1,6 @@
+services:
+  rust:
+    build:
+      context: .
+    working_dir: /rustlings
+    tty: true
